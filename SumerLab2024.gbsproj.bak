@@ -1457,7 +1457,7 @@
             "autoFadeSpeed": 1,
             "id": "709850ce-e0e2-4496-a5c9-1baec68480e6",
             "symbol": "scene_1",
-            "x": 522,
+            "x": 523,
             "y": 138,
             "actors": [
                 {
@@ -1538,6 +1538,47 @@
                         }
                     },
                     "id": "50c5938f-af08-49e9-9a57-6186a609f6d2"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_LAUNCH_PROJECTILE",
+                                "args": {
+                                    "spriteSheetId": "21e73a4e-3b36-44a1-90ff-6cc10c9d64b7",
+                                    "spriteStateId": "",
+                                    "actorId": "$self$",
+                                    "x": 0,
+                                    "y": 0,
+                                    "otherActorId": "$self$",
+                                    "direction": "right",
+                                    "angle": 0,
+                                    "angleVariable": "L0",
+                                    "directionType": "direction",
+                                    "initialOffset": 0,
+                                    "speed": 2,
+                                    "animSpeed": 255,
+                                    "lifeTime": 1,
+                                    "loopAnim": true,
+                                    "destroyOnHit": true,
+                                    "collisionGroup": "3",
+                                    "collisionMask": [
+                                        "1"
+                                    ]
+                                },
+                                "id": "89501a66-1e89-4f40-a7f2-885b3ab6205a"
+                            }
+                        ]
+                    },
+                    "id": "9848ff21-c2e4-47ce-9224-ae92f9454057"
                 }
             ],
             "playerHit1Script": [],
@@ -3092,6 +3133,47 @@
                         }
                     },
                     "id": "bbfeed00-26e5-4f62-aeb4-29319f9418a0"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_LAUNCH_PROJECTILE",
+                                "args": {
+                                    "spriteSheetId": "21e73a4e-3b36-44a1-90ff-6cc10c9d64b7",
+                                    "spriteStateId": "",
+                                    "actorId": "$self$",
+                                    "x": 0,
+                                    "y": 0,
+                                    "otherActorId": "$self$",
+                                    "direction": "right",
+                                    "angle": 0,
+                                    "angleVariable": "L0",
+                                    "directionType": "direction",
+                                    "initialOffset": 0,
+                                    "speed": 2,
+                                    "animSpeed": 15,
+                                    "lifeTime": 1,
+                                    "loopAnim": true,
+                                    "destroyOnHit": true,
+                                    "collisionGroup": "3",
+                                    "collisionMask": [
+                                        "1"
+                                    ]
+                                },
+                                "id": "391ad3df-4e31-4a3d-b853-1f51d3586cc1"
+                            }
+                        ]
+                    },
+                    "id": "57aadf7b-d8eb-4b54-b770-c1511ffbe65d"
                 }
             ],
             "playerHit1Script": [],
@@ -4646,6 +4728,47 @@
                         }
                     },
                     "id": "163aaaa9-8d48-4a17-be71-9545948a202d"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_LAUNCH_PROJECTILE",
+                                "args": {
+                                    "spriteSheetId": "21e73a4e-3b36-44a1-90ff-6cc10c9d64b7",
+                                    "spriteStateId": "",
+                                    "actorId": "$self$",
+                                    "x": 0,
+                                    "y": 0,
+                                    "otherActorId": "$self$",
+                                    "direction": "right",
+                                    "angle": 0,
+                                    "angleVariable": "L0",
+                                    "directionType": "direction",
+                                    "initialOffset": 0,
+                                    "speed": 2,
+                                    "animSpeed": 15,
+                                    "lifeTime": 1,
+                                    "loopAnim": true,
+                                    "destroyOnHit": true,
+                                    "collisionGroup": "3",
+                                    "collisionMask": [
+                                        "1"
+                                    ]
+                                },
+                                "id": "82dcff57-7b13-4e9b-93ae-c2c5fb71e9f0"
+                            }
+                        ]
+                    },
+                    "id": "b7a836cb-8e21-4109-a657-2f4070abd7cb"
                 }
             ],
             "playerHit1Script": [],

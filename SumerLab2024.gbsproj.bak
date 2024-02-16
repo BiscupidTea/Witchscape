@@ -4642,8 +4642,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "1e2237d3-0d56-4193-86e6-73a63775bbd3",
-                    "x": 10,
-                    "y": 0
+                    "x": 11,
+                    "y": 1
                 },
                 {
                     "name": "GO",
@@ -5964,9 +5964,9 @@
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "2755e641-eca9-4d90-8baa-155db3743a3d",
+                                                "sceneId": "709850ce-e0e2-4496-a5c9-1baec68480e6",
                                                 "x": 0,
-                                                "y": 13,
+                                                "y": 16,
                                                 "direction": "",
                                                 "fadeSpeed": "2"
                                             },
@@ -11066,9 +11066,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "fb3747f8-1fe3-4393-8b4e-5e0a3eb39757",
+                                "$actor[2]$": "1619979f-8c1f-4da8-bb81-587004ba6bd8",
+                                "$actor[3]$": "5f2109e7-2c0b-46e6-863e-44a00d187761",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -11118,9 +11118,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "fb3747f8-1fe3-4393-8b4e-5e0a3eb39757",
+                                "$actor[2]$": "1619979f-8c1f-4da8-bb81-587004ba6bd8",
+                                "$actor[3]$": "5f2109e7-2c0b-46e6-863e-44a00d187761",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -11185,9 +11185,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "fb3747f8-1fe3-4393-8b4e-5e0a3eb39757",
+                                "$actor[2]$": "1619979f-8c1f-4da8-bb81-587004ba6bd8",
+                                "$actor[3]$": "5f2109e7-2c0b-46e6-863e-44a00d187761",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -11252,9 +11252,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "fb3747f8-1fe3-4393-8b4e-5e0a3eb39757",
+                                "$actor[2]$": "1619979f-8c1f-4da8-bb81-587004ba6bd8",
+                                "$actor[3]$": "5f2109e7-2c0b-46e6-863e-44a00d187761",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -11319,9 +11319,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "fb3747f8-1fe3-4393-8b4e-5e0a3eb39757",
+                                "$actor[2]$": "1619979f-8c1f-4da8-bb81-587004ba6bd8",
+                                "$actor[3]$": "5f2109e7-2c0b-46e6-863e-44a00d187761",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -11386,9 +11386,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "fb3747f8-1fe3-4393-8b4e-5e0a3eb39757",
+                                "$actor[2]$": "1619979f-8c1f-4da8-bb81-587004ba6bd8",
+                                "$actor[3]$": "5f2109e7-2c0b-46e6-863e-44a00d187761",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -11453,9 +11453,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "fb3747f8-1fe3-4393-8b4e-5e0a3eb39757",
+                                "$actor[2]$": "1619979f-8c1f-4da8-bb81-587004ba6bd8",
+                                "$actor[3]$": "5f2109e7-2c0b-46e6-863e-44a00d187761",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -11594,9 +11594,9 @@
         },
         {
             "name": "Scene 3",
-            "backgroundId": "470a881b-b1cb-4e5b-a2b8-f295e3b221df",
+            "backgroundId": "cface87b-ad71-4e91-9362-68ac2097fab9",
             "width": 255,
-            "height": 18,
+            "height": 20,
             "type": "PLATFORM",
             "paletteIds": [],
             "spritePaletteIds": [],
@@ -16196,7 +16196,7 @@
             "id": "accdce9e-f73f-4289-bb13-c7aa3517ce42",
             "symbol": "scene_0",
             "x": 569,
-            "y": 612,
+            "y": 621,
             "actors": [
                 {
                     "name": "",
@@ -16521,7 +16521,7 @@
                                     "value": "0"
                                 },
                                 "__comment": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "71daf0ac-e4ae-48eb-ad1c-44709a3b7752"
                         }
@@ -16562,9 +16562,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "274b5e3d-6ddc-4265-adbe-f6d46a643725",
+                                "$actor[2]$": "c1e8b04f-9f69-4ab7-b80c-fdce1d20d2ae",
+                                "$actor[3]$": "a022fa07-1d0d-4358-b072-97224135fa15",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -16614,9 +16614,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "274b5e3d-6ddc-4265-adbe-f6d46a643725",
+                                "$actor[2]$": "c1e8b04f-9f69-4ab7-b80c-fdce1d20d2ae",
+                                "$actor[3]$": "a022fa07-1d0d-4358-b072-97224135fa15",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -16681,9 +16681,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "274b5e3d-6ddc-4265-adbe-f6d46a643725",
+                                "$actor[2]$": "c1e8b04f-9f69-4ab7-b80c-fdce1d20d2ae",
+                                "$actor[3]$": "a022fa07-1d0d-4358-b072-97224135fa15",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -16748,9 +16748,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "274b5e3d-6ddc-4265-adbe-f6d46a643725",
+                                "$actor[2]$": "c1e8b04f-9f69-4ab7-b80c-fdce1d20d2ae",
+                                "$actor[3]$": "a022fa07-1d0d-4358-b072-97224135fa15",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -16815,9 +16815,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "274b5e3d-6ddc-4265-adbe-f6d46a643725",
+                                "$actor[2]$": "c1e8b04f-9f69-4ab7-b80c-fdce1d20d2ae",
+                                "$actor[3]$": "a022fa07-1d0d-4358-b072-97224135fa15",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -16882,9 +16882,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "274b5e3d-6ddc-4265-adbe-f6d46a643725",
+                                "$actor[2]$": "c1e8b04f-9f69-4ab7-b80c-fdce1d20d2ae",
+                                "$actor[3]$": "a022fa07-1d0d-4358-b072-97224135fa15",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -16949,9 +16949,9 @@
                                     "value": "L3"
                                 },
                                 "$actor[0]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
-                                "$actor[1]$": "16191603-1cef-4664-9766-43de3130af49",
-                                "$actor[2]$": "8a9beef0-db39-490a-92c6-8e642e8bb34a",
-                                "$actor[3]$": "f2f62d54-b67b-4b43-95a4-231af8f81d05",
+                                "$actor[1]$": "274b5e3d-6ddc-4265-adbe-f6d46a643725",
+                                "$actor[2]$": "c1e8b04f-9f69-4ab7-b80c-fdce1d20d2ae",
+                                "$actor[3]$": "a022fa07-1d0d-4358-b072-97224135fa15",
                                 "$variable[V6]$": {
                                     "type": "variable",
                                     "value": "L4"
@@ -17093,7 +17093,7 @@
             "backgroundId": "ef3d3ffa-e125-48f5-97ca-dcb066208637",
             "width": 255,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "PLATFORM",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [
@@ -21733,40 +21733,13 @@
                                 "operation": "sub",
                                 "other": "val",
                                 "vectorY": "L0",
-                                "value": 1,
+                                "value": 0,
                                 "minValue": "0",
                                 "maxValue": "32767",
                                 "clamp": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "bad94635-2b90-4b1a-89a8-8c2dd9777d8b"
-                        },
-                        {
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "2",
-                                "operator": "<=",
-                                "comparator": "0",
-                                "__collapseElse": false,
-                                "__collapse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SWITCH_SCENE",
-                                        "args": {
-                                            "sceneId": "8d1c4a27-cf93-46c8-9de1-f4e2ff4f6aed",
-                                            "x": 0,
-                                            "y": 0,
-                                            "direction": "",
-                                            "fadeSpeed": "2"
-                                        },
-                                        "id": "50e02554-83c6-4a58-b6cb-ec9559b94cb9"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "097ee061-100a-4586-aba6-307ec9b25c27"
                         }
                     ],
                     "startScript": [],
@@ -21823,38 +21796,12 @@
                                 "operation": "sub",
                                 "other": "val",
                                 "vectorY": "L0",
-                                "value": 1,
+                                "value": 0,
                                 "minValue": "0",
                                 "maxValue": "32767",
                                 "clamp": false
                             },
                             "id": "b4d89011-23b0-4546-99f2-f75a7036fb0c"
-                        },
-                        {
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "2",
-                                "operator": "<=",
-                                "comparator": "0",
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SWITCH_SCENE",
-                                        "args": {
-                                            "sceneId": "8d1c4a27-cf93-46c8-9de1-f4e2ff4f6aed",
-                                            "x": 0,
-                                            "y": 0,
-                                            "direction": "",
-                                            "fadeSpeed": "2"
-                                        },
-                                        "id": "646dec84-4986-4ddc-a309-658a0007a36b"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "e9140913-a2ee-46be-b2c2-bb30c43372ca"
                         }
                     ],
                     "startScript": [],
@@ -21911,38 +21858,12 @@
                                 "operation": "sub",
                                 "other": "val",
                                 "vectorY": "L0",
-                                "value": 1,
+                                "value": 0,
                                 "minValue": "0",
                                 "maxValue": "32767",
                                 "clamp": false
                             },
                             "id": "31f373dd-adf7-42fa-8858-d5ca4d9ef52f"
-                        },
-                        {
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "2",
-                                "operator": "<=",
-                                "comparator": "0",
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SWITCH_SCENE",
-                                        "args": {
-                                            "sceneId": "8d1c4a27-cf93-46c8-9de1-f4e2ff4f6aed",
-                                            "x": 0,
-                                            "y": 0,
-                                            "direction": "",
-                                            "fadeSpeed": "2"
-                                        },
-                                        "id": "94eba6e6-1c0c-4827-a8b2-537e660e2fe6"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "e437f874-0983-4ff5-a0da-96fc3470afd3"
                         }
                     ],
                     "startScript": [],
@@ -22024,6 +21945,17 @@
                 }
             ],
             "script": [
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "0",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    },
+                    "id": "1c6f9995-cd4e-48a4-84fd-a4e7d1faa40f"
+                },
                 {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
@@ -22128,7 +22060,8 @@
             "height": 18,
             "imageWidth": 2040,
             "imageHeight": 144,
-            "filename": "Parallax lvl 1 2.3.png"
+            "filename": "Parallax lvl 1 2.3.png",
+            "tileColors": []
         },
         {
             "id": "470a881b-b1cb-4e5b-a2b8-f295e3b221df",
@@ -22138,7 +22071,8 @@
             "height": 18,
             "imageWidth": 2040,
             "imageHeight": 144,
-            "filename": "Parallax lvl 2 Final.png"
+            "filename": "Parallax lvl 2 Final.png",
+            "tileColors": []
         },
         {
             "id": "3a6e9420-6e49-478d-bf7a-d4fb11470efb",
@@ -22159,7 +22093,8 @@
             "height": 20,
             "imageWidth": 2040,
             "imageHeight": 160,
-            "filename": "lvl3_parallax.png"
+            "filename": "lvl3_parallax.png",
+            "tileColors": []
         },
         {
             "id": "db04a809-3102-42d7-addc-04891b84a811",
@@ -25023,7 +24958,7 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 15,
+                                    "value": 17,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
@@ -25053,11 +24988,11 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 6,
+                                    "value": 8,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "51922770-3156-44ef-b013-cae73872f282"
                             },
@@ -25141,11 +25076,11 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 15,
+                                    "value": 17,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "23674568-ee64-4c4b-91e3-d8e1ff5d9acf"
                             },
@@ -25213,11 +25148,11 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 6,
+                                    "value": 8,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "9fc11725-13b5-4cf5-80d3-e0fa07badc35"
                             },
@@ -25285,11 +25220,11 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 14,
+                                    "value": 16,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "85289ec2-8d33-4c3c-8856-1e09cb1a882a"
                             },
@@ -25450,6 +25385,10 @@
         {
             "id": "fade_style",
             "value": 0
+        },
+        {
+            "id": "plat_jump_vel",
+            "value": 18203
         }
     ],
     "settings": {
@@ -25463,7 +25402,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 67,
+        "worldScrollX": 1,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,

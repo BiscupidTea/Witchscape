@@ -12061,9 +12061,9 @@
         },
         {
             "name": "Scene 3",
-            "backgroundId": "cface87b-ad71-4e91-9362-68ac2097fab9",
+            "backgroundId": "2b657a23-e994-439a-b67a-789c8378014f",
             "width": 255,
-            "height": 20,
+            "height": 18,
             "type": "PLATFORM",
             "paletteIds": [],
             "spritePaletteIds": [],
@@ -22755,6 +22755,16 @@
             "tileColors": []
         },
         {
+            "id": "2b657a23-e994-439a-b67a-789c8378014f",
+            "name": "Parallax_lvl3",
+            "symbol": "bg_parallax_lvl3",
+            "width": 255,
+            "height": 18,
+            "imageWidth": 2040,
+            "imageHeight": 144,
+            "filename": "Parallax_lvl3.png"
+        },
+        {
             "id": "ba62bc08-59b4-4080-9e8f-da412a6f09b8",
             "name": "asd",
             "symbol": "bg_asd",
@@ -30594,7 +30604,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
+        "worldScrollX": 86,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,

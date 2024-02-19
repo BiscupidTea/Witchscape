@@ -4814,7 +4814,8 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "L1",
-                                "__collapseElse": false
+                                "__collapseElse": false,
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -5479,7 +5480,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -5565,6 +5566,16 @@
                         "__collapse": true
                     },
                     "id": "f20865d3-9019-412d-ba88-2cc3eecce2a6"
+                },
+                {
+                    "command": "PT_EVENT_CAMERA_FIELD_SET",
+                    "args": {
+                        "field": "camera_offset_x",
+                        "variable": "L0",
+                        "value": -64,
+                        "type": "number"
+                    },
+                    "id": "46fcc1b5-4b60-4782-aa21-0016c50bf692"
                 }
             ],
             "playerHit1Script": [
@@ -6349,9 +6360,9 @@
                                                     {
                                                         "command": "EVENT_SWITCH_SCENE",
                                                         "args": {
-                                                            "sceneId": "2755e641-eca9-4d90-8baa-155db3743a3d",
+                                                            "sceneId": "709850ce-e0e2-4496-a5c9-1baec68480e6",
                                                             "x": 0,
-                                                            "y": 13,
+                                                            "y": 16,
                                                             "direction": "",
                                                             "fadeSpeed": "2",
                                                             "__comment": false,
@@ -11121,7 +11132,7 @@
             "autoFadeSpeed": 1,
             "id": "768a2def-2631-42ee-bd83-06035b268591",
             "symbol": "scene_7",
-            "x": 564,
+            "x": 555,
             "y": 424,
             "actors": [
                 {
@@ -16662,7 +16673,7 @@
             "autoFadeSpeed": 1,
             "id": "accdce9e-f73f-4289-bb13-c7aa3517ce42",
             "symbol": "scene_0",
-            "x": 564,
+            "x": 554,
             "y": 619,
             "actors": [
                 {
@@ -22589,7 +22600,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -22762,7 +22773,8 @@
             "height": 18,
             "imageWidth": 2040,
             "imageHeight": 144,
-            "filename": "Parallax_lvl3.png"
+            "filename": "Parallax_lvl3.png",
+            "tileColors": []
         },
         {
             "id": "ba62bc08-59b4-4080-9e8f-da412a6f09b8",
@@ -30120,7 +30132,7 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 12,
+                                    "value": 20,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
@@ -30139,7 +30151,7 @@
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "id": "5e030c97-653e-461b-8eea-a2e624120eb7"
                             },
@@ -30150,7 +30162,7 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 19,
+                                    "value": 27,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
@@ -30169,7 +30181,7 @@
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "id": "51922770-3156-44ef-b013-cae73872f282"
                             },
@@ -30238,11 +30250,11 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 12,
+                                    "value": 20,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "931adad1-9acf-4e16-90eb-9b360fa64f9b"
                             },
@@ -30257,7 +30269,7 @@
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "id": "23674568-ee64-4c4b-91e3-d8e1ff5d9acf"
                             },
@@ -30310,11 +30322,11 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 10,
+                                    "value": 20,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "df49d61d-66b2-481d-a203-78fc23fe6b7d"
                             },
@@ -30329,7 +30341,7 @@
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "id": "9fc11725-13b5-4cf5-80d3-e0fa07badc35"
                             },
@@ -30382,11 +30394,11 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 10,
+                                    "value": 20,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "90e97d06-3d21-4ab1-9264-f06dd479958d"
                             },
@@ -30401,7 +30413,7 @@
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "id": "85289ec2-8d33-4c3c-8856-1e09cb1a882a"
                             },
@@ -30416,7 +30428,8 @@
                                     "y": {
                                         "type": "variable",
                                         "value": "V7"
-                                    }
+                                    },
+                                    "__collapse": true
                                 },
                                 "id": "9d037c18-3e45-4ce2-a027-9cdcae1be60a"
                             }

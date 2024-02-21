@@ -6583,7 +6583,7 @@
         },
         {
             "name": "Loose Scene",
-            "backgroundId": "3a6e9420-6e49-478d-bf7a-d4fb11470efb",
+            "backgroundId": "a8ff6447-0352-477a-b76e-9eea442977c0",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -6601,7 +6601,8 @@
                 {
                     "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
-                        "actorId": "$self$"
+                        "actorId": "$self$",
+                        "__collapse": true
                     },
                     "id": "9fe34433-0ad4-41b6-8dca-898706b31e62"
                 },
@@ -6609,16 +6610,17 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Your score is: $03$"
+                            "Your score is:\n$03$"
                         ],
-                        "avatarId": ""
+                        "avatarId": "",
+                        "__collapse": false
                     },
                     "id": "82130da7-49c5-4bd7-926a-b935c2951d10"
                 },
                 {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -6657,7 +6659,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Scene 2",
@@ -23164,7 +23167,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -23277,7 +23280,7 @@
                 {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -23315,7 +23318,8 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "85788ebc-564c-4263-a0a0-9e7d0071919c"
+            "playerSpriteSheetId": "85788ebc-564c-4263-a0a0-9e7d0071919c",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Icono",
@@ -23372,6 +23376,16 @@
         }
     ],
     "backgrounds": [
+        {
+            "id": "a8ff6447-0352-477a-b76e-9eea442977c0",
+            "name": "GameOver",
+            "symbol": "bg_gameover",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "GameOver.png"
+        },
         {
             "id": "c8f23b38-a387-4d53-9a18-9b8858b04dba",
             "name": "IconoV4",

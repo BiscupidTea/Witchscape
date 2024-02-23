@@ -6277,7 +6277,7 @@
                 {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -23396,8 +23396,8 @@
             "playerSpriteSheetId": "85788ebc-564c-4263-a0a0-9e7d0071919c"
         },
         {
-            "name": "Credits",
-            "backgroundId": "3a6e9420-6e49-478d-bf7a-d4fb11470efb",
+            "name": "Credits 1",
+            "backgroundId": "3d6f47cd-a046-4b4b-8ad6-74b15d563b36",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -23412,6 +23412,43 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "4aa69e06-675d-4a87-a1c6-7f55ce2e4850"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Programming",
+                        "x": 3,
+                        "y": 4,
+                        "__collapse": false
+                    },
+                    "id": "7fd6cf09-a427-494b-b849-01f99a309f56"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Enzo Coletta",
+                        "x": 4,
+                        "y": 6,
+                        "__collapse": false
+                    },
+                    "id": "82634f74-536b-46f1-abeb-15743031faf5"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Emiliano Martel",
+                        "x": 4,
+                        "y": 8,
+                        "__collapse": false
+                    },
+                    "id": "405d5653-79fa-4639-bdb6-451db245cbee"
+                },
                 {
                     "command": "EVENT_LOOP",
                     "args": {
@@ -23432,7 +23469,7 @@
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
+                                                "sceneId": "5d11cdc9-de88-4688-80cf-4e38600bf3eb",
                                                 "x": 0,
                                                 "y": 0,
                                                 "direction": "",
@@ -23508,6 +23545,300 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "autoFadeEventCollapse": true
+        },
+        {
+            "name": "Credits 2",
+            "backgroundId": "3d6f47cd-a046-4b4b-8ad6-74b15d563b36",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "5d11cdc9-de88-4688-80cf-4e38600bf3eb",
+            "symbol": "scene_9",
+            "x": 314,
+            "y": 647,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "794c52a5-e0f4-4f5e-b338-abf01a76b1e1"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Game Design",
+                        "x": 3,
+                        "y": 4,
+                        "__collapse": false
+                    },
+                    "id": "876e4907-2704-44ab-8971-6117f03c61d7"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Franco Farallo",
+                        "x": 4,
+                        "y": 7,
+                        "__collapse": false
+                    },
+                    "id": "d574798c-a789-46f8-a40d-5364677f5433"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Visual Art",
+                        "x": 3,
+                        "y": 9,
+                        "__collapse": false
+                    },
+                    "id": "f0c8ff3a-6c5e-40fa-8908-ecaf88c44017"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Jules Leach",
+                        "x": 4,
+                        "y": 11,
+                        "__collapse": false
+                    },
+                    "id": "a77ed8b5-63cf-49a3-aa27-bde4133a67e2"
+                },
+                {
+                    "command": "EVENT_LOOP",
+                    "args": {
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_INPUT",
+                                "args": {
+                                    "input": [
+                                        "a"
+                                    ],
+                                    "__collapseElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "7886e7f0-3410-4550-800f-556e559641f9",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": "2"
+                                            },
+                                            "id": "b4bff478-78d7-434e-8bdd-61d466293c41"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "85852df1-8cfa-46d7-8359-47c614384d28"
+                            }
+                        ]
+                    },
+                    "id": "4bed75a3-76a6-4640-8743-41600505c240"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "85788ebc-564c-4263-a0a0-9e7d0071919c",
+            "autoFadeEventCollapse": true
+        },
+        {
+            "name": "Credits 3",
+            "backgroundId": "3d6f47cd-a046-4b4b-8ad6-74b15d563b36",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "7886e7f0-3410-4550-800f-556e559641f9",
+            "symbol": "scene_10",
+            "x": 319,
+            "y": 853,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "bfab131f-7f4e-44e2-828b-7c9bd4b569c7"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Audio",
+                        "x": 3,
+                        "y": 3,
+                        "__collapse": false
+                    },
+                    "id": "649d92ce-2d7f-48a1-add6-f5b0674f1a94"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Martin",
+                        "x": 4,
+                        "y": 6,
+                        "__collapse": false
+                    },
+                    "id": "479f4ec5-bb68-46ba-a230-fb100dfd0630"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Alan",
+                        "x": 4,
+                        "y": 8,
+                        "__collapse": false
+                    },
+                    "id": "e60dce3f-8cce-4059-8757-12e8494d82f3"
+                },
+                {
+                    "command": "EVENT_LOOP",
+                    "args": {
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_INPUT",
+                                "args": {
+                                    "input": [
+                                        "a"
+                                    ],
+                                    "__collapseElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "c3c9b735-935d-4b61-8db7-bf51560cf13f",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": "2"
+                                            },
+                                            "id": "ace6fafc-3a36-4c90-ac7c-c1f8d7686a06"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "9e3f98bc-aa0e-4fe6-a4c0-d9474fd2a537"
+                            }
+                        ]
+                    },
+                    "id": "0d50ca6f-7e4d-4be1-9ae3-490c9e6a57d5"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "85788ebc-564c-4263-a0a0-9e7d0071919c",
+            "autoFadeEventCollapse": true
+        },
+        {
+            "name": "Credits 4",
+            "backgroundId": "3d6f47cd-a046-4b4b-8ad6-74b15d563b36",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "c3c9b735-935d-4b61-8db7-bf51560cf13f",
+            "symbol": "scene_11",
+            "x": 325,
+            "y": 1040,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "85d02f4f-8985-4539-a580-e3169a8f9399"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Special Thanks ",
+                        "x": 3,
+                        "y": 3,
+                        "__collapse": false
+                    },
+                    "id": "d2e98b73-f68b-40d8-8d6f-e18c3fbd2cdd"
+                },
+                {
+                    "command": "PT_EVENT_BACKGROUND_TEXT",
+                    "args": {
+                        "text": "Sergio Baretto",
+                        "x": 4,
+                        "y": 6,
+                        "__collapse": false
+                    },
+                    "id": "4e08d722-524c-4a86-b9a2-78fdc5a082b8"
+                },
+                {
+                    "command": "EVENT_LOOP",
+                    "args": {
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_INPUT",
+                                "args": {
+                                    "input": [
+                                        "a"
+                                    ],
+                                    "__collapseElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": "2"
+                                            },
+                                            "id": "b8f1670b-b412-42d5-9c64-fd25a9329bc4"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "2fa40602-0ca1-4f3a-b99d-29b31bb580e7"
+                            }
+                        ]
+                    },
+                    "id": "b2c8a769-5a31-4d70-ad98-1f152db56aa1"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "85788ebc-564c-4263-a0a0-9e7d0071919c",
+            "autoFadeEventCollapse": true
         }
     ],
     "backgrounds": [
@@ -23519,7 +23850,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "GameOver.png"
+            "filename": "GameOver.png",
+            "tileColors": []
         },
         {
             "id": "c8f23b38-a387-4d53-9a18-9b8858b04dba",
@@ -23529,7 +23861,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "IconoV4.png"
+            "filename": "IconoV4.png",
+            "tileColors": []
         },
         {
             "id": "f75aa0bb-cf03-451d-8346-7fe9f096cd94",
@@ -23585,6 +23918,16 @@
             "imageHeight": 144,
             "filename": "asd.png",
             "tileColors": []
+        },
+        {
+            "id": "3d6f47cd-a046-4b4b-8ad6-74b15d563b36",
+            "name": "blank",
+            "symbol": "bg_logo_copia",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "blank.png"
         },
         {
             "id": "3a6e9420-6e49-478d-bf7a-d4fb11470efb",
@@ -32009,9 +32352,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 567,
-        "worldScrollY": 462,
-        "zoom": 200,
+        "worldScrollX": 0,
+        "worldScrollY": 275,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -32039,9 +32382,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            486,
-            145,
-            145
+            600,
+            178,
+            178
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",

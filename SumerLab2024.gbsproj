@@ -23955,7 +23955,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Logo IC.png"
+            "filename": "Logo IC.png",
+            "tileColors": []
         },
         {
             "id": "3069e282-be30-4420-b9a8-e9fc65be2ebf",
@@ -23965,7 +23966,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Logo SL2024.png"
+            "filename": "Logo SL2024.png",
+            "tileColors": []
         },
         {
             "id": "f75aa0bb-cf03-451d-8346-7fe9f096cd94",
@@ -31833,9 +31835,9 @@
                         "vectorY": "V0",
                         "value": "0",
                         "minValue": 1,
-                        "maxValue": 4,
+                        "maxValue": 5,
                         "clamp": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "76328586-ac1f-4538-aa18-e6003bf8bdc9"
                 },
@@ -31843,8 +31845,8 @@
                     "command": "EVENT_SWITCH",
                     "args": {
                         "variable": "V0",
-                        "choices": 4,
-                        "__collapseCase0": true,
+                        "choices": 5,
+                        "__collapseCase0": false,
                         "value0": 1,
                         "__collapseCase1": false,
                         "value1": 2,
@@ -32101,7 +32103,7 @@
                                     "operation": "add",
                                     "other": "val",
                                     "vectorY": "V0",
-                                    "value": 8,
+                                    "value": 6,
                                     "minValue": "0",
                                     "maxValue": "32767",
                                     "clamp": false
@@ -32190,7 +32192,72 @@
                                 "id": "40ed1289-f1e0-4efe-9298-2a8f0f3fef2d"
                             }
                         ],
-                        "true4": [],
+                        "true4": [
+                            {
+                                "command": "EVENT_ACTOR_ACTIVATE",
+                                "args": {
+                                    "actorId": "2"
+                                },
+                                "id": "2e4d9ba1-6489-487c-a188-549f6f2ea2a8"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_DEACTIVATE",
+                                "args": {
+                                    "actorId": "1"
+                                },
+                                "id": "f58e6760-cdd5-47d3-affa-aa2934648938"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_DEACTIVATE",
+                                "args": {
+                                    "actorId": "3"
+                                },
+                                "id": "9fc5f21d-5303-498a-987d-901a300d6441"
+                            },
+                            {
+                                "command": "EVENT_VARIABLE_MATH",
+                                "args": {
+                                    "vectorX": "V4",
+                                    "operation": "add",
+                                    "other": "val",
+                                    "vectorY": "V0",
+                                    "value": 20,
+                                    "minValue": "0",
+                                    "maxValue": "32767",
+                                    "clamp": false
+                                },
+                                "id": "a6151113-3fef-4834-aa71-019af1dea353"
+                            },
+                            {
+                                "command": "EVENT_VARIABLE_MATH",
+                                "args": {
+                                    "vectorX": "V5",
+                                    "operation": "add",
+                                    "other": "val",
+                                    "vectorY": "V0",
+                                    "value": 12,
+                                    "minValue": "0",
+                                    "maxValue": "32767",
+                                    "clamp": false
+                                },
+                                "id": "b0cf4efe-3ceb-45cd-b1e7-3f71ea256f03"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SET_POSITION",
+                                "args": {
+                                    "actorId": "2",
+                                    "x": {
+                                        "type": "variable",
+                                        "value": "V4"
+                                    },
+                                    "y": {
+                                        "type": "variable",
+                                        "value": "V5"
+                                    }
+                                },
+                                "id": "7a341cd4-2834-4d4b-825d-8392d77ecf3b"
+                            }
+                        ],
                         "true5": [],
                         "true6": [],
                         "true7": [],
@@ -32486,9 +32553,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            600,
-            178,
-            178
+            488,
+            144,
+            144
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",

@@ -1,6 +1,7 @@
 {
     "name": "Witchscape",
     "author": "Image Campus",
+    "notes": "Proyecto desarrollado durante el Summer Lab 2024\nAutores:\n- Enzo Coletta\n- Jules Leech\n- Franco Gabriel Farallo\n- Emiliano David Martel Rodriguez\n- Alan Ezequiel Aguirre\n- Martín Danilo Galimany Aleu",
     "_version": "3.2.0",
     "_release": "1",
     "scenes": [

@@ -5774,7 +5774,7 @@
             "backgroundId": "f75aa0bb-cf03-451d-8346-7fe9f096cd94",
             "width": 20,
             "height": 18,
-            "type": "SHMUP",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [
@@ -6278,7 +6278,7 @@
                 {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -23398,10 +23398,10 @@
         },
         {
             "name": "Credits 1",
-            "backgroundId": "3d6f47cd-a046-4b4b-8ad6-74b15d563b36",
+            "backgroundId": "699b17b3-7d41-4d5f-aef7-d754e04e5b54",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
@@ -23419,36 +23419,6 @@
                         "actorId": "$self$"
                     },
                     "id": "4aa69e06-675d-4a87-a1c6-7f55ce2e4850"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Programming",
-                        "x": 3,
-                        "y": 4,
-                        "__collapse": false
-                    },
-                    "id": "7fd6cf09-a427-494b-b849-01f99a309f56"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Enzo Coletta",
-                        "x": 4,
-                        "y": 6,
-                        "__collapse": false
-                    },
-                    "id": "82634f74-536b-46f1-abeb-15743031faf5"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Emiliano Martel",
-                        "x": 4,
-                        "y": 8,
-                        "__collapse": false
-                    },
-                    "id": "405d5653-79fa-4639-bdb6-451db245cbee"
                 },
                 {
                     "command": "EVENT_LOOP",
@@ -23549,18 +23519,18 @@
         },
         {
             "name": "Credits 2",
-            "backgroundId": "3d6f47cd-a046-4b4b-8ad6-74b15d563b36",
+            "backgroundId": "56bb6c22-e025-4e02-b685-aa156c36efb4",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "5d11cdc9-de88-4688-80cf-4e38600bf3eb",
             "symbol": "scene_9",
-            "x": 314,
-            "y": 647,
+            "x": 323,
+            "y": 615,
             "actors": [],
             "triggers": [],
             "script": [
@@ -23570,46 +23540,6 @@
                         "actorId": "$self$"
                     },
                     "id": "794c52a5-e0f4-4f5e-b338-abf01a76b1e1"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Game Design",
-                        "x": 3,
-                        "y": 4,
-                        "__collapse": false
-                    },
-                    "id": "876e4907-2704-44ab-8971-6117f03c61d7"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Franco Farallo",
-                        "x": 4,
-                        "y": 7,
-                        "__collapse": false
-                    },
-                    "id": "d574798c-a789-46f8-a40d-5364677f5433"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Visual Art",
-                        "x": 3,
-                        "y": 9,
-                        "__collapse": false
-                    },
-                    "id": "f0c8ff3a-6c5e-40fa-8908-ecaf88c44017"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Jules Leach",
-                        "x": 4,
-                        "y": 11,
-                        "__collapse": false
-                    },
-                    "id": "a77ed8b5-63cf-49a3-aa27-bde4133a67e2"
                 },
                 {
                     "command": "EVENT_LOOP",
@@ -23657,18 +23587,18 @@
         },
         {
             "name": "Credits 3",
-            "backgroundId": "3d6f47cd-a046-4b4b-8ad6-74b15d563b36",
+            "backgroundId": "42248900-de0b-4f85-9a39-662087b3938c",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "7886e7f0-3410-4550-800f-556e559641f9",
             "symbol": "scene_10",
-            "x": 319,
-            "y": 853,
+            "x": 323,
+            "y": 802,
             "actors": [],
             "triggers": [],
             "script": [
@@ -23678,36 +23608,6 @@
                         "actorId": "$self$"
                     },
                     "id": "bfab131f-7f4e-44e2-828b-7c9bd4b569c7"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Audio",
-                        "x": 3,
-                        "y": 3,
-                        "__collapse": false
-                    },
-                    "id": "649d92ce-2d7f-48a1-add6-f5b0674f1a94"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Martin",
-                        "x": 4,
-                        "y": 6,
-                        "__collapse": false
-                    },
-                    "id": "479f4ec5-bb68-46ba-a230-fb100dfd0630"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Alan",
-                        "x": 4,
-                        "y": 8,
-                        "__collapse": false
-                    },
-                    "id": "e60dce3f-8cce-4059-8757-12e8494d82f3"
                 },
                 {
                     "command": "EVENT_LOOP",
@@ -23755,18 +23655,18 @@
         },
         {
             "name": "Credits 4",
-            "backgroundId": "3d6f47cd-a046-4b4b-8ad6-74b15d563b36",
+            "backgroundId": "a0417bf2-3e47-41ef-a5fa-8f8dcfc79469",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "c3c9b735-935d-4b61-8db7-bf51560cf13f",
             "symbol": "scene_11",
-            "x": 325,
-            "y": 1040,
+            "x": 328,
+            "y": 1007,
             "actors": [],
             "triggers": [],
             "script": [
@@ -23776,26 +23676,6 @@
                         "actorId": "$self$"
                     },
                     "id": "85d02f4f-8985-4539-a580-e3169a8f9399"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Special Thanks ",
-                        "x": 3,
-                        "y": 3,
-                        "__collapse": false
-                    },
-                    "id": "d2e98b73-f68b-40d8-8d6f-e18c3fbd2cdd"
-                },
-                {
-                    "command": "PT_EVENT_BACKGROUND_TEXT",
-                    "args": {
-                        "text": "Sergio Baretto",
-                        "x": 4,
-                        "y": 6,
-                        "__collapse": false
-                    },
-                    "id": "4e08d722-524c-4a86-b9a2-78fdc5a082b8"
                 },
                 {
                     "command": "EVENT_LOOP",
@@ -23817,7 +23697,7 @@
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
+                                                "sceneId": "fd6d5c20-7de5-4b53-88dd-587deab17a35",
                                                 "x": 0,
                                                 "y": 0,
                                                 "direction": "",
@@ -23922,9 +23802,127 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
+        },
+        {
+            "name": "Credits 5",
+            "backgroundId": "65e1ef25-d310-4289-b615-85399ba35569",
+            "width": 20,
+            "height": 18,
+            "type": "LOGO",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "fd6d5c20-7de5-4b53-88dd-587deab17a35",
+            "symbol": "scene_14",
+            "x": 539,
+            "y": 1009,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "7ce224bb-8b4b-4730-b8dc-fb838396484e"
+                },
+                {
+                    "command": "EVENT_LOOP",
+                    "args": {
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_INPUT",
+                                "args": {
+                                    "input": [
+                                        "a"
+                                    ],
+                                    "__collapseElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": "2"
+                                            },
+                                            "id": "38aff605-bc2b-4648-9298-9d858025495a"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "8cff0b94-aaec-48bc-82d6-809c4e7772c3"
+                            }
+                        ]
+                    },
+                    "id": "0cd86bb3-4109-4709-ab0e-4a1dd12eb712"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "85788ebc-564c-4263-a0a0-9e7d0071919c",
+            "autoFadeEventCollapse": true
         }
     ],
     "backgrounds": [
+        {
+            "id": "699b17b3-7d41-4d5f-aef7-d754e04e5b54",
+            "name": "Credits1",
+            "symbol": "bg_credits1",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Credits1.png"
+        },
+        {
+            "id": "56bb6c22-e025-4e02-b685-aa156c36efb4",
+            "name": "Credits2",
+            "symbol": "bg_credits2",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Credits2.png"
+        },
+        {
+            "id": "42248900-de0b-4f85-9a39-662087b3938c",
+            "name": "Credits3",
+            "symbol": "bg_credits3",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Credits3.png"
+        },
+        {
+            "id": "a0417bf2-3e47-41ef-a5fa-8f8dcfc79469",
+            "name": "Credits4",
+            "symbol": "bg_credits4",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Credits4.png"
+        },
+        {
+            "id": "65e1ef25-d310-4289-b615-85399ba35569",
+            "name": "Credits5",
+            "symbol": "bg_credits5",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Credits5.png"
+        },
         {
             "id": "a8ff6447-0352-477a-b76e-9eea442977c0",
             "name": "GameOver",
@@ -32523,7 +32521,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1,
+        "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,

@@ -23544,7 +23544,7 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": false
         },
         {
             "name": "Credits 2",
@@ -23839,6 +23839,88 @@
             "playerHit3Script": [],
             "playerSpriteSheetId": "85788ebc-564c-4263-a0a0-9e7d0071919c",
             "autoFadeEventCollapse": true
+        },
+        {
+            "name": "Logo Summer Lab (splash 2)",
+            "backgroundId": "3069e282-be30-4420-b9a8-e9fc65be2ebf",
+            "width": 20,
+            "height": 18,
+            "type": "LOGO",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "6fa2dcfe-b275-4ca1-b2cd-f1f56efb1566",
+            "symbol": "scene_12",
+            "x": 124,
+            "y": 240,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 2.5,
+                        "frames": 30
+                    },
+                    "id": "aa61fe66-e16d-489c-b5ae-820b2f59bc95"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "9a15d81f-c414-4a37-94b1-4cf2c83d7c82",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "fd9674aa-bea9-4597-95eb-d9c0dfe334d9"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Logo Image Campus (splash 1)",
+            "backgroundId": "96361dbd-c4a9-464b-818a-206c22e70a9b",
+            "width": 20,
+            "height": 18,
+            "type": "LOGO",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 3,
+            "id": "fb08b4ae-553e-4458-b68d-9a22ecc4670f",
+            "symbol": "scene_13",
+            "x": 124,
+            "y": 436,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 2.5,
+                        "frames": 30
+                    },
+                    "id": "57d84e06-0033-44f1-af4f-993bb540e85f"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "6fa2dcfe-b275-4ca1-b2cd-f1f56efb1566",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "a8a8db5b-99ef-4fe0-b58d-c81deb089389"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -23863,6 +23945,26 @@
             "imageHeight": 144,
             "filename": "IconoV4.png",
             "tileColors": []
+        },
+        {
+            "id": "96361dbd-c4a9-464b-818a-206c22e70a9b",
+            "name": "Logo IC",
+            "symbol": "bg_logo_ic",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Logo IC.png"
+        },
+        {
+            "id": "3069e282-be30-4420-b9a8-e9fc65be2ebf",
+            "name": "Logo SL2024",
+            "symbol": "bg_logo_sl2024",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Logo SL2024.png"
         },
         {
             "id": "f75aa0bb-cf03-451d-8346-7fe9f096cd94",
@@ -23927,7 +24029,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "blank.png"
+            "filename": "blank.png",
+            "tileColors": []
         },
         {
             "id": "3a6e9420-6e49-478d-bf7a-d4fb11470efb",
@@ -32342,7 +32445,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "9a15d81f-c414-4a37-94b1-4cf2c83d7c82",
+        "startSceneId": "fb08b4ae-553e-4458-b68d-9a22ecc4670f",
         "startX": 0,
         "startY": 0,
         "startMoveSpeed": 1,
@@ -32352,8 +32455,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 275,
+        "worldScrollX": 1,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,

@@ -23440,7 +23440,7 @@
                                     "Watch out for\nthe obstacles!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "id": "d460626c-ef8c-4ec9-8aaf-ccc13433ac9d"
                         },
@@ -23465,7 +23465,7 @@
                                 "text": [
                                     "Some objects \ncould be..."
                                 ],
-                                "avatarId": "e096f606-fd3b-4367-9562-786980dbd338"
+                                "avatarId": ""
                             },
                             "id": "20ed1ab1-b575-41aa-bba3-af54613bffda"
                         },
@@ -23475,7 +23475,7 @@
                                 "text": [
                                     "... destroyed \nwith spells."
                                 ],
-                                "avatarId": "e096f606-fd3b-4367-9562-786980dbd338"
+                                "avatarId": ""
                             },
                             "id": "5ab7cf06-8648-43e3-ba76-816cf03f80c0"
                         }
@@ -25276,7 +25276,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "Banana.png",
-            "checksum": "31a7f09c6be894669c94165c912adfa678db4d04",
+            "checksum": "cbf8a585cacbf28a1e8c2b746982e4756a2f458a",
             "width": 32,
             "height": 64,
             "states": [
@@ -30740,7 +30740,7 @@
             "symbol": "sound_hammered_sav",
             "filename": "hammered.sav",
             "type": "fxhammer",
-            "inode": "844424930177531",
+            "inode": "562949954596136",
             "_v": 1708954112567
         }
     ],
@@ -30880,8 +30880,8 @@
         }
     ],
     "settings": {
-        "startSceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
-        "startX": 2,
+        "startSceneId": "fb08b4ae-553e-4458-b68d-9a22ecc4670f",
+        "startX": 0,
         "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,

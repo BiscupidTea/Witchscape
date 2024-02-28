@@ -6548,7 +6548,7 @@
             ],
             "autoFadeSpeed": 1,
             "id": "a213d762-b87e-4e71-a097-89b13ae07f38",
-            "x": 319,
+            "x": 320,
             "y": 46,
             "actors": [
                 {
@@ -6683,9 +6683,17 @@
                     "id": "d37baf32-20bb-46df-989c-757ec73e2d84"
                 },
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "df1ace61-8c8d-49a8-aff2-54c149cd6526",
+                        "__collapse": true
+                    },
+                    "id": "71f3d0a3-7248-4fbf-aeb9-9ef589ebaa3b"
+                },
+                {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -6966,7 +6974,8 @@
                                                 "value14": 15,
                                                 "__collapseCase15": false,
                                                 "value15": 16,
-                                                "__collapseElse": true
+                                                "__collapseElse": true,
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true0": [
@@ -6980,7 +6989,7 @@
                                                             "duration": 0.5,
                                                             "wait": true,
                                                             "effect": 19,
-                                                            "__collapse": false
+                                                            "__collapse": true
                                                         },
                                                         "id": "d1c2b9e3-7f33-42b6-b518-eafa24424bb4"
                                                     },
@@ -7042,11 +7051,16 @@
                                                             "__collapseCase15": false,
                                                             "value15": 16,
                                                             "__collapseElse": false,
-                                                            "__collapse": true,
+                                                            "__collapse": false,
                                                             "__comment": false
                                                         },
                                                         "children": {
                                                             "true0": [
+                                                                {
+                                                                    "command": "EVENT_MUSIC_STOP",
+                                                                    "args": {},
+                                                                    "id": "fbfdd50a-c6f8-453c-a633-8a2415685f0e"
+                                                                },
                                                                 {
                                                                     "command": "EVENT_SWITCH_SCENE",
                                                                     "args": {
@@ -7073,6 +7087,11 @@
                                                                         "__collapse": true
                                                                     },
                                                                     "id": "7dbd83a1-f941-4c4a-a335-14e4bf3e5225"
+                                                                },
+                                                                {
+                                                                    "command": "EVENT_MUSIC_STOP",
+                                                                    "args": {},
+                                                                    "id": "d625b740-4078-408d-af7e-31bafbca1ed4"
                                                                 },
                                                                 {
                                                                     "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -7115,6 +7134,13 @@
                                                                     "id": "e0da9595-2ca5-4d3c-93d6-3ab45493f9a3"
                                                                 },
                                                                 {
+                                                                    "command": "EVENT_MUSIC_STOP",
+                                                                    "args": {
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "id": "01361c58-2635-49d2-a587-5d8457eb4352"
+                                                                },
+                                                                {
                                                                     "command": "EVENT_CALL_CUSTOM_EVENT",
                                                                     "args": {
                                                                         "customEventId": "a6e4efcb-0788-4421-9820-aff256599b26",
@@ -7145,6 +7171,11 @@
                                                             "__collapse": false
                                                         },
                                                         "id": "7c9a09c4-ad7a-42ff-bd26-40dbb028794c"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_MUSIC_STOP",
+                                                        "args": {},
+                                                        "id": "44aed4bc-64d5-449c-b4f6-6fa81e367dad"
                                                     },
                                                     {
                                                         "command": "EVENT_SWITCH_SCENE",
@@ -28798,6 +28829,14 @@
         }
     ],
     "music": [
+        {
+            "id": "df1ace61-8c8d-49a8-aff2-54c149cd6526",
+            "name": "Menu",
+            "symbol": "song_song_template",
+            "filename": "Menu.uge",
+            "settings": {},
+            "type": "uge"
+        },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",

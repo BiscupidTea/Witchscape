@@ -20847,7 +20847,7 @@
             "autoFadeSpeed": 1,
             "id": "2755e641-eca9-4d90-8baa-155db3743a3d",
             "symbol": "scene_2",
-            "x": 726,
+            "x": 727,
             "y": 35,
             "actors": [
                 {
@@ -20898,36 +20898,29 @@
                             "id": "bad94635-2b90-4b1a-89a8-8c2dd9777d8b"
                         },
                         {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "player"
+                            },
+                            "id": "59a091f6-9246-405a-bc65-0be091b9b160"
+                        },
+                        {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
                                     "Destroy these \nwith a spell!"
                                 ],
                                 "avatarId": "",
-                                "__comment": true
+                                "__comment": false
                             },
                             "id": "10bb915f-5be8-49c1-b872-ed96546cc8dd"
                         },
                         {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                            "command": "EVENT_ACTOR_ACTIVATE",
                             "args": {
-                                "__scriptTabs": "text",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "position": "top",
-                                "showBorder": true,
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "text": [
-                                    "Destroy these \nwith a spell!"
-                                ],
-                                "avatarId": ""
+                                "actorId": "$self$"
                             },
-                            "id": "e2493918-92ad-4608-9a0d-6f81b2ca39f7"
+                            "id": "302cddc6-42b2-4b9f-965a-cd31840d2628"
                         }
                     ],
                     "startScript": [],
@@ -20983,7 +20976,7 @@
                                 "duration": 0.5,
                                 "wait": true,
                                 "effect": 25,
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "id": "062a268d-02cd-4836-802e-7681b5ba4734"
                         },
@@ -21076,46 +21069,11 @@
                             "id": "b4d89011-23b0-4546-99f2-f75a7036fb0c"
                         },
                         {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                            "command": "EVENT_ACTOR_DEACTIVATE",
                             "args": {
-                                "__scriptTabs": "text",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "position": "top",
-                                "showBorder": true,
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "text": [
-                                    "Watch out for\nthe obstacles!"
-                                ],
-                                "avatarId": ""
+                                "actorId": "player"
                             },
-                            "id": "dc8f3ce5-55b4-4de0-a019-1b474d07db5c"
-                        },
-                        {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
-                            "args": {
-                                "__scriptTabs": "layout",
-                                "minHeight": 4,
-                                "maxHeight": 9,
-                                "position": "top",
-                                "showBorder": true,
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "text": [
-                                    "If you crash two\ntimes, the unicorn\ncan catch you!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "29bca76d-ecdf-4369-ba36-11fb4b51e0dc"
+                            "id": "a3310e04-6b13-482c-8fda-24d59b1f40cf"
                         },
                         {
                             "command": "EVENT_TEXT",
@@ -21125,7 +21083,7 @@
                                 ],
                                 "avatarId": "",
                                 "__collapse": false,
-                                "__comment": true
+                                "__comment": false
                             },
                             "id": "d460626c-ef8c-4ec9-8aaf-ccc13433ac9d"
                         },
@@ -21136,10 +21094,17 @@
                                     "If you crash two\ntimes, the unicorn\ncan catch you!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": false,
-                                "__comment": true
+                                "__collapse": true,
+                                "__comment": false
                             },
                             "id": "9ebb3a6b-9ef2-4e04-b82d-6fb6559bb32e"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_ACTIVATE",
+                            "args": {
+                                "actorId": "player"
+                            },
+                            "id": "26d969c1-0c67-4d11-b762-a397577e566e"
                         }
                     ],
                     "startScript": [],
@@ -21154,51 +21119,18 @@
                                 "frequency": 200,
                                 "duration": 0.5,
                                 "wait": true,
-                                "effect": 24
+                                "effect": 24,
+                                "__collapse": true
                             },
                             "id": "a042a641-dafc-40cd-bddb-3c9a5dbf0e0e"
                         },
                         {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                            "command": "EVENT_ACTOR_DEACTIVATE",
                             "args": {
-                                "__scriptTabs": "text",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "position": "top",
-                                "showBorder": true,
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "text": [
-                                    "Some objects \ncould be..."
-                                ],
-                                "avatarId": ""
+                                "actorId": "player",
+                                "__collapse": true
                             },
-                            "id": "2945895d-dd22-46cc-8958-0b8b423caaed"
-                        },
-                        {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
-                            "args": {
-                                "__scriptTabs": "text",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "position": "top",
-                                "showBorder": true,
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "text": [
-                                    "... destroyed \nwith spells."
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "c99f01bd-feda-4805-83b6-f1ae262ed10e"
+                            "id": "40fd3af3-fa64-4499-b525-1424fd037595"
                         },
                         {
                             "command": "EVENT_TEXT",
@@ -21207,7 +21139,8 @@
                                     "Some objects \ncould be..."
                                 ],
                                 "avatarId": "",
-                                "__comment": true
+                                "__comment": false,
+                                "__collapse": true
                             },
                             "id": "20ed1ab1-b575-41aa-bba3-af54613bffda"
                         },
@@ -21218,9 +21151,18 @@
                                     "... destroyed \nwith spells."
                                 ],
                                 "avatarId": "",
-                                "__comment": true
+                                "__comment": false,
+                                "__collapse": true
                             },
                             "id": "5ab7cf06-8648-43e3-ba76-816cf03f80c0"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_ACTIVATE",
+                            "args": {
+                                "actorId": "player",
+                                "__collapse": true
+                            },
+                            "id": "f67dc9ff-92a9-4fde-bf49-0e68d200434f"
                         }
                     ],
                     "hit2Script": [],
@@ -21269,25 +21211,11 @@
                             "id": "31f373dd-adf7-42fa-8858-d5ca4d9ef52f"
                         },
                         {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                            "command": "EVENT_ACTOR_DEACTIVATE",
                             "args": {
-                                "__scriptTabs": "layout",
-                                "minHeight": 5,
-                                "maxHeight": 9,
-                                "position": "top",
-                                "showBorder": false,
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "text": [
-                                    "If you crash two\ntimes, the unicorn\ncan catch you!"
-                                ],
-                                "avatarId": ""
+                                "actorId": "player"
                             },
-                            "id": "b14e309c-88d7-40b0-868e-215e1d9ec34e"
+                            "id": "80ec4948-230f-4c3c-8a43-54376efb8741"
                         },
                         {
                             "command": "PT_EVENT_ADVANCED_DIALOGUE",
@@ -21304,23 +21232,12 @@
                                 "closeWhen": "key",
                                 "closeButton": "a",
                                 "text": [
-                                    "...destroyed \nwith spells."
-                                ],
-                                "avatarId": "",
-                                "__comment": true
-                            },
-                            "id": "999c61dd-9971-41de-a635-c3ba637dedfc"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
                                     "Watch out for\nthe obstacles!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__comment": false
                             },
-                            "id": "8a01d424-fe8b-4de9-9320-f1488ea9eee0"
+                            "id": "999c61dd-9971-41de-a635-c3ba637dedfc"
                         },
                         {
                             "command": "EVENT_TEXT",
@@ -21330,9 +21247,16 @@
                                 ],
                                 "avatarId": "",
                                 "__collapse": false,
-                                "__comment": true
+                                "__comment": false
                             },
                             "id": "036177d7-54a9-43ab-8715-96473440071f"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_ACTIVATE",
+                            "args": {
+                                "actorId": "player"
+                            },
+                            "id": "7e883048-23c3-4fc6-aec3-54415136bb7a"
                         }
                     ],
                     "startScript": [],
@@ -21347,7 +21271,8 @@
                                 "frequency": 200,
                                 "duration": 0.5,
                                 "wait": true,
-                                "effect": 24
+                                "effect": 24,
+                                "__collapse": true
                             },
                             "id": "a4a0b66a-a32d-4a2f-a0e0-19039af1a3de"
                         }
@@ -21429,13 +21354,20 @@
                     "height": 18,
                     "script": [
                         {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "e1365755-8ccd-49f8-9011-0a917d2cd3c0"
+                        },
+                        {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
                                     "Some objects\ncan`t be..."
                                 ],
                                 "avatarId": "",
-                                "__comment": true
+                                "__comment": false
                             },
                             "id": "b6885b3f-3ffb-4736-8606-3a29afca5601"
                         },
@@ -21446,9 +21378,16 @@
                                     "... destroyed\nwith spells."
                                 ],
                                 "avatarId": "",
-                                "__comment": true
+                                "__comment": false
                             },
                             "id": "d46846a0-447b-423a-9bf8-f7f523a06ccf"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_ACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "58822848-f3ec-4a59-8dd0-325fa7bde1a8"
                         },
                         {
                             "command": "PT_EVENT_ADVANCED_DIALOGUE",
@@ -21467,7 +21406,8 @@
                                 "text": [
                                     "Some objects\ncan`t be..."
                                 ],
-                                "avatarId": ""
+                                "avatarId": "",
+                                "__comment": true
                             },
                             "id": "26e2931a-62d2-4a0f-a17f-5cc6edaa4ceb"
                         },
@@ -21488,7 +21428,8 @@
                                 "text": [
                                     "... destroyed\nwith spells."
                                 ],
-                                "avatarId": ""
+                                "avatarId": "",
+                                "__comment": true
                             },
                             "id": "bd833079-dbf5-48dc-8204-9f8b8894910c"
                         }
@@ -21505,6 +21446,13 @@
                     "height": 18,
                     "script": [
                         {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "player"
+                            },
+                            "id": "6a4d2b0e-a06c-432f-87f5-4cbf2ac96f72"
+                        },
+                        {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
@@ -21512,7 +21460,7 @@
                                 ],
                                 "avatarId": "",
                                 "__collapse": false,
-                                "__comment": true
+                                "__comment": false
                             },
                             "id": "877c5bbd-fda3-454d-ac04-288c974657fd"
                         },
@@ -21524,51 +21472,16 @@
                                 ],
                                 "avatarId": "",
                                 "__collapse": false,
-                                "__comment": true
+                                "__comment": false
                             },
                             "id": "5a1ecf26-0586-4efe-a902-39ff37ddff10"
                         },
                         {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                            "command": "EVENT_ACTOR_ACTIVATE",
                             "args": {
-                                "__scriptTabs": "text",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "position": "top",
-                                "showBorder": true,
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "text": [
-                                    "...but there are\nothers that need"
-                                ],
-                                "avatarId": ""
+                                "actorId": "$self$"
                             },
-                            "id": "16a1ca31-0760-4663-a27e-d3e6b37767bb"
-                        },
-                        {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
-                            "args": {
-                                "__scriptTabs": "text",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "position": "top",
-                                "showBorder": true,
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "text": [
-                                    "a spell\nto be destroyed"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "943e1594-8f86-4554-88f3-6c26b9a1b1ca"
+                            "id": "86a916ee-edfc-4113-bfdf-c2b94e91ccea"
                         }
                     ],
                     "leaveScript": []
@@ -21607,7 +21520,7 @@
                         ],
                         "override": false,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -21883,7 +21796,8 @@
                         "frequency": 200,
                         "duration": 0.5,
                         "wait": true,
-                        "effect": 18
+                        "effect": 18,
+                        "__collapse": true
                     },
                     "id": "d224b392-225e-4d08-a3f4-c0673938e5b7"
                 }
@@ -29055,8 +28969,8 @@
         }
     ],
     "settings": {
-        "startSceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
-        "startX": 3,
+        "startSceneId": "fb08b4ae-553e-4458-b68d-9a22ecc4670f",
+        "startX": 0,
         "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
@@ -29065,8 +28979,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 259,
-        "worldScrollY": 200,
+        "worldScrollX": 580,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,

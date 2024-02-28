@@ -6685,7 +6685,7 @@
                 {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -6696,7 +6696,7 @@
                                         "down"
                                     ],
                                     "__collapseElse": false,
-                                    "__collapse": false,
+                                    "__collapse": true,
                                     "__comment": false
                                 },
                                 "children": {
@@ -23215,7 +23215,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "Banana.png",
-            "checksum": "cbf8a585cacbf28a1e8c2b746982e4756a2f458a",
+            "checksum": "31a7f09c6be894669c94165c912adfa678db4d04",
             "width": 32,
             "height": 64,
             "states": [
@@ -23819,7 +23819,7 @@
                     ]
                 }
             ],
-            "numTiles": 16,
+            "numTiles": 13,
             "canvasWidth": 32,
             "canvasHeight": 64,
             "boundsX": -4,
@@ -28979,7 +28979,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 580,
+        "worldScrollX": 1,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,

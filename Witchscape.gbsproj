@@ -27710,14 +27710,16 @@
                         "true15": [],
                         "false": [
                             {
-                                "command": "EVENT_TEXT",
+                                "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "text": [
-                                        "algo fallo"
-                                    ],
-                                    "avatarId": ""
+                                    "sceneId": "709850ce-e0e2-4496-a5c9-1baec68480e6",
+                                    "x": 0,
+                                    "y": 16,
+                                    "direction": "",
+                                    "fadeSpeed": "2",
+                                    "__collapse": false
                                 },
-                                "id": "fbdd1c74-80aa-44dc-8909-0ab50aefe9fd"
+                                "id": "f3b691a2-62a0-46b7-9ac5-96bd88bab891"
                             }
                         ]
                     },
@@ -28757,8 +28759,8 @@
         }
     ],
     "settings": {
-        "startSceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
-        "startX": 2,
+        "startSceneId": "fb08b4ae-553e-4458-b68d-9a22ecc4670f",
+        "startX": 0,
         "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
@@ -28768,7 +28770,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 31,
-        "worldScrollY": 0,
+        "worldScrollY": 100,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,

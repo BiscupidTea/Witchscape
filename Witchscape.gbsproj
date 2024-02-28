@@ -6585,7 +6585,7 @@
                 {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -6825,7 +6825,7 @@
                                         "a"
                                     ],
                                     "__collapseElse": true,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -6885,32 +6885,12 @@
                                                         "id": "d1c2b9e3-7f33-42b6-b518-eafa24424bb4"
                                                     },
                                                     {
-                                                        "command": "PT_EVENT_BACKGROUND_TEXT",
-                                                        "args": {
-                                                            "text": "Do you want to go",
-                                                            "x": 1,
-                                                            "y": 12,
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "4676a51c-742b-4015-9dc7-6f2b33203fe3"
-                                                    },
-                                                    {
-                                                        "command": "PT_EVENT_BACKGROUND_TEXT",
-                                                        "args": {
-                                                            "text": "to turotial?",
-                                                            "x": 1,
-                                                            "y": 13,
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "2a466c85-86e3-4066-be38-babbad985a58"
-                                                    },
-                                                    {
                                                         "command": "EVENT_MENU",
                                                         "args": {
                                                             "variable": "L2",
                                                             "items": 2,
-                                                            "option1": "Yes",
-                                                            "option2": "No",
+                                                            "option1": "Play Tutorial",
+                                                            "option2": "Skip Tutorial",
                                                             "option3": "",
                                                             "option4": "",
                                                             "option5": "",
@@ -6919,7 +6899,7 @@
                                                             "option8": "",
                                                             "cancelOnB": true,
                                                             "layout": "dialogue",
-                                                            "__collapse": true,
+                                                            "__collapse": false,
                                                             "__comment": false
                                                         },
                                                         "id": "24cc6c3d-ecbe-4189-8d68-25a0d310c77a"
@@ -20764,9 +20744,9 @@
                         {
                             "command": "PT_EVENT_ADVANCED_DIALOGUE",
                             "args": {
-                                "__scriptTabs": "text",
+                                "__scriptTabs": "layout",
                                 "minHeight": 4,
-                                "maxHeight": 7,
+                                "maxHeight": 9,
                                 "position": "top",
                                 "showBorder": true,
                                 "clearPrevious": true,
@@ -20923,11 +20903,11 @@
                         {
                             "command": "PT_EVENT_ADVANCED_DIALOGUE",
                             "args": {
-                                "__scriptTabs": "text",
-                                "minHeight": 4,
-                                "maxHeight": 7,
+                                "__scriptTabs": "layout",
+                                "minHeight": 5,
+                                "maxHeight": 9,
                                 "position": "top",
-                                "showBorder": true,
+                                "showBorder": false,
                                 "clearPrevious": true,
                                 "textX": 1,
                                 "textY": 1,
@@ -28770,7 +28750,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 31,
-        "worldScrollY": 100,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,

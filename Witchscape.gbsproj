@@ -7286,58 +7286,38 @@
                     "id": "82130da7-49c5-4bd7-926a-b935c2951d10"
                 },
                 {
-                    "command": "EVENT_LOOP",
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
                     "args": {
-                        "__collapse": false
+                        "type": "276069e5-aec6-4b03-80f3-88e413ca73c0",
+                        "priority": "medium",
+                        "pitch": 4,
+                        "frequency": 200,
+                        "duration": 0.5,
+                        "wait": true,
+                        "effect": 18,
+                        "__collapse": true
                     },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_IF_INPUT",
-                                "args": {
-                                    "input": [
-                                        "a",
-                                        "b"
-                                    ],
-                                    "__collapseElse": true,
-                                    "__collapse": false
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "command": "EVENT_SOUND_PLAY_EFFECT",
-                                            "args": {
-                                                "type": "276069e5-aec6-4b03-80f3-88e413ca73c0",
-                                                "priority": "medium",
-                                                "pitch": 4,
-                                                "frequency": 200,
-                                                "duration": 0.5,
-                                                "wait": true,
-                                                "effect": 18,
-                                                "__collapse": true
-                                            },
-                                            "id": "16d2ee16-cc6f-4b0d-bec5-fd1424642bf1"
-                                        },
-                                        {
-                                            "command": "EVENT_SWITCH_SCENE",
-                                            "args": {
-                                                "sceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
-                                                "x": 0,
-                                                "y": 0,
-                                                "direction": "",
-                                                "fadeSpeed": "2",
-                                                "__collapse": true
-                                            },
-                                            "id": "abb6e09b-407e-40f0-a670-0991ac7b80ec"
-                                        }
-                                    ],
-                                    "false": []
-                                },
-                                "id": "ce2e5a90-c5b8-4c19-8d3e-a051ad9b68a1"
-                            }
-                        ]
+                    "id": "16d2ee16-cc6f-4b0d-bec5-fd1424642bf1"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 0.5,
+                        "frames": 30
                     },
-                    "id": "326e4753-5b2c-4b85-b548-87847e4ee5ce"
+                    "id": "cba66ebf-0185-4670-8fca-1008f499a0ea"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2",
+                        "__collapse": true
+                    },
+                    "id": "abb6e09b-407e-40f0-a670-0991ac7b80ec"
                 }
             ],
             "playerHit1Script": [],
@@ -20934,6 +20914,23 @@
                             "id": "10bb915f-5be8-49c1-b872-ed96546cc8dd"
                         },
                         {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Remember,you can\ncast a spell by\npressing the\nB button."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "dedba5fe-d2df-454e-9254-6e0d556bc403"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_ACTIVATE",
+                            "args": {
+                                "actorId": "78990a8e-4ffc-4bdc-8c5e-323109442cb4"
+                            },
+                            "id": "4967bd02-0a58-4ffd-b759-b0972ecef02b"
+                        },
+                        {
                             "command": "EVENT_ACTOR_ACTIVATE",
                             "args": {
                                 "actorId": "$self$"
@@ -21100,10 +21097,17 @@
                                     "Watch out for\nthe obstacles!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": false,
+                                "__collapse": true,
                                 "__comment": false
                             },
                             "id": "d460626c-ef8c-4ec9-8aaf-ccc13433ac9d"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_ACTIVATE",
+                            "args": {
+                                "actorId": "78990a8e-4ffc-4bdc-8c5e-323109442cb4"
+                            },
+                            "id": "461fa2f0-ead7-401b-a771-bed606c27780"
                         },
                         {
                             "command": "EVENT_TEXT",
@@ -21154,11 +21158,11 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Some objects \ncould be..."
+                                    "Some objects \ncan´t be..."
                                 ],
                                 "avatarId": "",
                                 "__comment": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "20ed1ab1-b575-41aa-bba3-af54613bffda"
                         },
@@ -21170,7 +21174,7 @@
                                 ],
                                 "avatarId": "",
                                 "__comment": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "5ab7cf06-8648-43e3-ba76-816cf03f80c0"
                         },
@@ -21231,7 +21235,8 @@
                         {
                             "command": "EVENT_ACTOR_DEACTIVATE",
                             "args": {
-                                "actorId": "player"
+                                "actorId": "player",
+                                "__collapse": true
                             },
                             "id": "80ec4948-230f-4c3c-8a43-54376efb8741"
                         },
@@ -21253,9 +21258,17 @@
                                     "Watch out for\nthe obstacles!"
                                 ],
                                 "avatarId": "",
-                                "__comment": false
+                                "__comment": false,
+                                "__collapse": true
                             },
                             "id": "999c61dd-9971-41de-a635-c3ba637dedfc"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_ACTIVATE",
+                            "args": {
+                                "actorId": "78990a8e-4ffc-4bdc-8c5e-323109442cb4"
+                            },
+                            "id": "50b1ae26-553c-440d-a078-2ec3b7a53b0e"
                         },
                         {
                             "command": "EVENT_TEXT",
@@ -21264,7 +21277,7 @@
                                     "If you crash two\ntimes, the unicorn\ncan catch you!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": false,
+                                "__collapse": true,
                                 "__comment": false
                             },
                             "id": "036177d7-54a9-43ab-8715-96473440071f"
@@ -21293,6 +21306,30 @@
                                 "__collapse": true
                             },
                             "id": "a4a0b66a-a32d-4a2f-a0e0-19039af1a3de"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Some objects \ncan´t be..."
+                                ],
+                                "avatarId": "",
+                                "__comment": false,
+                                "__collapse": false
+                            },
+                            "id": "937d7612-5474-40a6-b71c-b2efd52d6184"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "... destroyed \nwith spells."
+                                ],
+                                "avatarId": "",
+                                "__comment": false,
+                                "__collapse": false
+                            },
+                            "id": "c7e615f6-3a77-4bd5-8d05-953e8d9031f6"
                         }
                     ],
                     "hit2Script": [],
@@ -21336,18 +21373,199 @@
                     "id": "26ff77bc-6b5e-4b4e-939c-d673bfa12c6f",
                     "x": 2,
                     "y": 16
+                },
+                {
+                    "name": "Unicorn",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "d600dd63-b3f7-4c91-bc52-d85554425c4d",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": true,
+                    "collisionGroup": "",
+                    "symbol": "actor_20",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "L0"
+                            },
+                            "id": "0e0b555f-d4e5-493e-80be-c601b0206f80"
+                        }
+                    ],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": false,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 2,
+                                            "y": 2,
+                                            "moveType": "diagonal",
+                                            "useCollisions": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "ec554550-0fa7-4d7d-8186-9290eab0a8b4"
+                                    },
+                                    {
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 0.1,
+                                            "frames": 30,
+                                            "__collapse": true
+                                        },
+                                        "id": "dc898f4f-8460-45a0-9d00-7eb9d8607914"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 2,
+                                            "y": -2,
+                                            "moveType": "diagonal",
+                                            "useCollisions": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "79c6e3d1-ba9c-4eab-b188-1b37e21fd5eb"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": -2,
+                                            "y": -2,
+                                            "moveType": "diagonal",
+                                            "useCollisions": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "792b5d49-404e-425a-b240-7e4908431506"
+                                    },
+                                    {
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 0.1,
+                                            "frames": 30,
+                                            "__collapse": true
+                                        },
+                                        "id": "5ba2a5f1-a1aa-44f9-a5ef-e681c99504e3"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": -2,
+                                            "y": 2,
+                                            "moveType": "diagonal",
+                                            "useCollisions": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "891bddd8-fb0e-421e-a19d-1903e6941660"
+                                    }
+                                ]
+                            },
+                            "id": "ce14168d-27d9-470f-9ce6-7c1e857aa731"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.2,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "86f8b580-a25f-434e-91f3-b95f5c81028c"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": false,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_FALSE",
+                                        "args": {
+                                            "variable": "L0"
+                                        },
+                                        "id": "012dfe21-7133-40c7-951e-3de9fba43b32"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "L0"
+                                        },
+                                        "id": "2264d2df-8f36-4190-bfd0-c264f477591b"
+                                    }
+                                ]
+                            },
+                            "id": "8f49f9cc-5ad0-4176-9210-e04c60ce6454"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "78990a8e-4ffc-4bdc-8c5e-323109442cb4",
+                    "x": 0,
+                    "y": 2
                 }
             ],
             "triggers": [
                 {
                     "name": "",
                     "id": "f6b8ba41-a7e0-4e11-b355-ead292d1aae3",
-                    "x": 57,
+                    "x": 59,
                     "y": 0,
                     "symbol": "trigger_26",
                     "width": 1,
                     "height": 18,
                     "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Remember, \nA to jump.\nB to cast."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "645a27a8-6edd-413f-8348-2d91fe447639"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You need to\nmemorize what\nobstacles can be\ndestroyed!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "b1163ecb-d4cf-4e43-b0f7-4baa1223e720"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Good luck!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "629a79f5-d29c-4ce0-8400-216de966a3a8"
+                        },
                         {
                             "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
@@ -21382,7 +21600,47 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Some objects\ncan`t be..."
+                                    "The unicorn can\nplace obstacles!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "ef1d244b-cd36-46c5-98e4-188b67710a3b"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Press A button\nto jump."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "041da36a-d306-4a5d-92ef-bc144e99ed7a"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Or press B button\nto cast a spell."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "716fe23e-4934-4e74-aef1-c7008faf693b"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "But be careful!!!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "161c1353-cd96-48a5-90bd-4f92e82b9b7b"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "...some objects\ncan`t be destroyed\nwith spells."
                                 ],
                                 "avatarId": "",
                                 "__comment": false
@@ -21390,66 +21648,11 @@
                             "id": "b6885b3f-3ffb-4736-8606-3a29afca5601"
                         },
                         {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "... destroyed\nwith spells."
-                                ],
-                                "avatarId": "",
-                                "__comment": false
-                            },
-                            "id": "d46846a0-447b-423a-9bf8-f7f523a06ccf"
-                        },
-                        {
                             "command": "EVENT_ACTOR_ACTIVATE",
                             "args": {
                                 "actorId": "$self$"
                             },
                             "id": "58822848-f3ec-4a59-8dd0-325fa7bde1a8"
-                        },
-                        {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
-                            "args": {
-                                "__scriptTabs": "text",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "position": "top",
-                                "showBorder": true,
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "text": [
-                                    "Some objects\ncan`t be..."
-                                ],
-                                "avatarId": "",
-                                "__comment": true
-                            },
-                            "id": "26e2931a-62d2-4a0f-a17f-5cc6edaa4ceb"
-                        },
-                        {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
-                            "args": {
-                                "__scriptTabs": "text",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "position": "top",
-                                "showBorder": "true",
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "text": [
-                                    "... destroyed\nwith spells."
-                                ],
-                                "avatarId": "",
-                                "__comment": true
-                            },
-                            "id": "bd833079-dbf5-48dc-8204-9f8b8894910c"
                         }
                     ],
                     "leaveScript": []
@@ -21582,7 +21785,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -21787,6 +21990,69 @@
                         "__collapse": true
                     },
                     "id": "2936f131-bfa4-4754-a25e-7473361cb7ac"
+                },
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "83e70cd7-9a6c-4c6b-b562-10225b2eccdc"
+                },
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "78990a8e-4ffc-4bdc-8c5e-323109442cb4",
+                        "__collapse": true
+                    },
+                    "id": "4efafac9-8151-458a-9ea2-d9d3505ef0ab"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Hello! \nWelcome to\nWitchscape."
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "45f8c69e-f8b9-4b87-a2ae-2f83205214db"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "In this game \nyou play with \nRigoberto."
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "16ac0656-e1e5-4968-8c04-e932c0e51912"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "An imprudent mage\nwho awake a undead\nunicorn!"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "b25e0c42-0260-4377-aa05-8c2b46a20e93"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Your main goal\nis to scape from\nhim, so RUN!"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "0e78b972-fbcd-47e8-a13d-04968fb25068"
+                },
+                {
+                    "command": "EVENT_ACTOR_ACTIVATE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "f118fd2b-4126-4bad-bb04-d14d1784e0a8"
                 }
             ],
             "playerHit1Script": [
@@ -21821,7 +22087,8 @@
                 }
             ],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "85788ebc-564c-4263-a0a0-9e7d0071919c"
+            "playerSpriteSheetId": "85788ebc-564c-4263-a0a0-9e7d0071919c",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Credits 1",
@@ -29005,8 +29272,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 304,
-        "worldScrollY": 228,
+        "worldScrollX": 777.5,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,

@@ -5603,6 +5603,13 @@
                     "id": "3cb2ab80-8b80-4f05-bea4-3a528bce78a8"
                 },
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "b8ccc6ca-bcf6-4681-9603-72334d34c533"
+                    },
+                    "id": "aa18e814-f610-4f5d-9ff0-86f092c975b7"
+                },
+                {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
                         "customEventId": "2773b4b3-714c-4581-8b52-5da7104c5ec8",
@@ -7250,18 +7257,11 @@
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "command": "EVENT_MUSIC_STOP",
                     "args": {
-                        "type": "276069e5-aec6-4b03-80f3-88e413ca73c0",
-                        "priority": "medium",
-                        "pitch": 4,
-                        "frequency": 200,
-                        "duration": 0.5,
-                        "wait": true,
-                        "effect": 18,
                         "__collapse": true
                     },
-                    "id": "16d2ee16-cc6f-4b0d-bec5-fd1424642bf1"
+                    "id": "5480c894-c162-486c-850c-06ee86a8dac0"
                 },
                 {
                     "command": "EVENT_ACTOR_DEACTIVATE",
@@ -7292,7 +7292,7 @@
                         "duration": 0.5,
                         "wait": true,
                         "effect": 18,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "16d2ee16-cc6f-4b0d-bec5-fd1424642bf1"
                 },
@@ -7300,9 +7300,24 @@
                     "command": "EVENT_WAIT",
                     "args": {
                         "time": 0.5,
-                        "frames": 30
+                        "frames": 30,
+                        "__collapse": true
                     },
                     "id": "cba66ebf-0185-4670-8fca-1008f499a0ea"
+                },
+                {
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "276069e5-aec6-4b03-80f3-88e413ca73c0",
+                        "priority": "medium",
+                        "pitch": 4,
+                        "frequency": 200,
+                        "duration": 0.5,
+                        "wait": true,
+                        "effect": 18,
+                        "__collapse": false
+                    },
+                    "id": "16d2ee16-cc6f-4b0d-bec5-fd1424642bf1"
                 },
                 {
                     "command": "EVENT_SWITCH_SCENE",
@@ -12910,6 +12925,13 @@
                         "__collapse": true
                     },
                     "id": "ed606fe6-9f45-4e3d-8df5-5e70ab668d1a"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "b8ccc6ca-bcf6-4681-9603-72334d34c533"
+                    },
+                    "id": "df1c1d7e-ae87-4e9f-9f92-51cad2afc529"
                 },
                 {
                     "command": "EVENT_SET_INPUT_SCRIPT",
@@ -19135,6 +19157,13 @@
                     "id": "7bc8904a-c839-45ac-80ad-78f66b7bac61"
                 },
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "b8ccc6ca-bcf6-4681-9603-72334d34c533"
+                    },
+                    "id": "92846430-2f54-4d26-b1f6-4994cb628047"
+                },
+                {
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
@@ -21717,6 +21746,13 @@
                         "__collapse": true
                     },
                     "id": "1c6f9995-cd4e-48a4-84fd-a4e7d1faa40f"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "df1ace61-8c8d-49a8-aff2-54c149cd6526"
+                    },
+                    "id": "9fb54f1b-7aa1-43ab-b5bc-e2abfdd21158"
                 },
                 {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -29081,6 +29117,14 @@
     ],
     "music": [
         {
+            "id": "b8ccc6ca-bcf6-4681-9603-72334d34c533",
+            "name": "Game level",
+            "symbol": "song_game_level",
+            "filename": "Game level.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "df1ace61-8c8d-49a8-aff2-54c149cd6526",
             "name": "Menu",
             "symbol": "song_song_template",
@@ -29269,7 +29313,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 286,
+        "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,

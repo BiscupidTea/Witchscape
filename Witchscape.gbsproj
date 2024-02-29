@@ -21540,21 +21540,11 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Remember, you can \njump by pressing\nthe A button."
+                                    "Remember, \nA to jump.\nB to cast."
                                 ],
                                 "avatarId": ""
                             },
                             "id": "645a27a8-6edd-413f-8348-2d91fe447639"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Or cast a spell\nby pressing the\nB button."
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "549a3f89-f078-42cd-b8ad-eb6eb8b6a2fa"
                         },
                         {
                             "command": "EVENT_TEXT",
@@ -29282,7 +29272,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 615,
+        "worldScrollX": 777.5,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,

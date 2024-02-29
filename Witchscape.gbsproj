@@ -22018,7 +22018,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "In this game \nyou play with \nRigoberto."
+                            "In this game \nyou play as\nRigoberto."
                         ],
                         "avatarId": ""
                     },
@@ -29269,8 +29269,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 9,
+        "worldScrollX": 286,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,

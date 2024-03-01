@@ -20929,7 +20929,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Remember,you can\ncast a spell by\npressing the\nB button."
+                                    "Remember, press\nthe B button\nto cast spell."
                                 ],
                                 "avatarId": ""
                             },
@@ -21109,7 +21109,7 @@
                                     "Watch out for\nthe obstacles!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__comment": false
                             },
                             "id": "d460626c-ef8c-4ec9-8aaf-ccc13433ac9d"
@@ -21117,7 +21117,8 @@
                         {
                             "command": "EVENT_ACTOR_ACTIVATE",
                             "args": {
-                                "actorId": "78990a8e-4ffc-4bdc-8c5e-323109442cb4"
+                                "actorId": "78990a8e-4ffc-4bdc-8c5e-323109442cb4",
+                                "__collapse": true
                             },
                             "id": "461fa2f0-ead7-401b-a771-bed606c27780"
                         },
@@ -21125,10 +21126,10 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "If you crash two\ntimes, the unicorn\ncan catch you!"
+                                    "If you crash two\ntimes, the unicorn\nwill catch you!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__comment": false
                             },
                             "id": "9ebb3a6b-9ef2-4e04-b82d-6fb6559bb32e"
@@ -21170,7 +21171,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Some objects \ncan´t be..."
+                                    "Some objects \ncan't be..."
                                 ],
                                 "avatarId": "",
                                 "__comment": false,
@@ -21253,27 +21254,16 @@
                             "id": "80ec4948-230f-4c3c-8a43-54376efb8741"
                         },
                         {
-                            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                            "command": "EVENT_TEXT",
                             "args": {
-                                "__scriptTabs": "text",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "position": "top",
-                                "showBorder": true,
-                                "clearPrevious": true,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 3,
-                                "closeWhen": "key",
-                                "closeButton": "a",
                                 "text": [
                                     "Watch out for\nthe obstacles!"
                                 ],
                                 "avatarId": "",
-                                "__comment": false,
-                                "__collapse": true
+                                "__collapse": false,
+                                "__comment": false
                             },
-                            "id": "999c61dd-9971-41de-a635-c3ba637dedfc"
+                            "id": "ec48d943-287f-4eb6-ba71-aadca1884b36"
                         },
                         {
                             "command": "EVENT_ACTOR_ACTIVATE",
@@ -21286,10 +21276,10 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "If you crash two\ntimes, the unicorn\ncan catch you!"
+                                    "If you crash two\ntimes, the unicorn\nwill catch you!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__comment": false
                             },
                             "id": "036177d7-54a9-43ab-8715-96473440071f"
@@ -21323,7 +21313,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Some objects \ncan´t be..."
+                                    "Some objects \ncan't be..."
                                 ],
                                 "avatarId": "",
                                 "__comment": false,
@@ -21562,7 +21552,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "You need to\nmemorize what\nobstacles can be\ndestroyed!"
+                                    "Memorize what\nobstacles can be\ndestroyed!"
                                 ],
                                 "avatarId": ""
                             },
@@ -21572,7 +21562,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Good luck!"
+                                    "Good luck!\nCast away."
                                 ],
                                 "avatarId": ""
                             },
@@ -21652,7 +21642,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "...some objects\ncan`t be destroyed\nwith spells."
+                                    "...some objects\ncan't be destroyed\nwith spells."
                                 ],
                                 "avatarId": "",
                                 "__comment": false
@@ -22050,7 +22040,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "An imprudent mage\nwho awake a undead\nunicorn!"
+                            "An imprudent mage\nwho awoke an \nundead unicorn!"
                         ],
                         "avatarId": ""
                     },
@@ -22060,7 +22050,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Your main goal\nis to scape from\nhim, so RUN!"
+                            "Your main goal\nis to escape from\nit, so RUN!"
                         ],
                         "avatarId": ""
                     },
@@ -29134,7 +29124,7 @@
             "symbol": "sound_soundbank_25022024_sa",
             "filename": "SoundBank_25022024.sav",
             "type": "fxhammer",
-            "inode": "844424930183154",
+            "inode": "562949954595950",
             "_v": 1709127107162
         }
     ],
@@ -29300,7 +29290,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 0,
-        "worldScrollY": 0,
+        "worldScrollY": 15,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,

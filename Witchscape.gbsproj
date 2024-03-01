@@ -22526,6 +22526,13 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "df1ace61-8c8d-49a8-aff2-54c149cd6526"
+                    },
+                    "id": "fb044367-661a-4c17-be39-c3b97fbfe9e8"
+                },
+                {
                     "command": "EVENT_WAIT",
                     "args": {
                         "time": 2.5,
@@ -29175,7 +29182,7 @@
             "symbol": "sound_soundbank_25022024_sa",
             "filename": "SoundBank_25022024.sav",
             "type": "fxhammer",
-            "inode": "562949954595950",
+            "inode": "844424930183154",
             "_v": 1709127107162
         }
     ],

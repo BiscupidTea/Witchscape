@@ -23015,28 +23015,6 @@
             "imageHeight": 144,
             "filename": "Tutorial.png",
             "tileColors": []
-        },
-        {
-            "id": "cface87b-ad71-4e91-9362-68ac2097fab9",
-            "name": "lvl3_parallax",
-            "symbol": "bg_lvl3_parallax",
-            "width": 255,
-            "height": 20,
-            "imageWidth": 2040,
-            "imageHeight": 160,
-            "filename": "lvl3_parallax.png",
-            "tileColors": []
-        },
-        {
-            "id": "ef3d3ffa-e125-48f5-97ca-dcb066208637",
-            "name": "surerallax",
-            "symbol": "bg_surerallax",
-            "width": 255,
-            "height": 18,
-            "imageWidth": 2040,
-            "imageHeight": 144,
-            "filename": "surerallax.png",
-            "tileColors": []
         }
     ],
     "spriteSheets": [
@@ -27017,123 +26995,6 @@
             "animSpeed": 15
         },
         {
-            "id": "b4b25ffa-8693-4300-8c95-734166470e9a",
-            "name": "Puntero",
-            "symbol": "bg_puntero",
-            "numFrames": 0.5,
-            "type": "animated",
-            "filename": "Puntero.png",
-            "checksum": "425acb5f7f23d55c8311522637c7ac1e00b5ef9b",
-            "width": 8,
-            "height": 8,
-            "states": [
-                {
-                    "id": "9a6cdf7b-84e2-403a-87e7-e62558e5ee68",
-                    "name": "",
-                    "animationType": "fixed",
-                    "flipLeft": true,
-                    "animations": [
-                        {
-                            "id": "ce108d52-1409-444b-a2bb-4a179646d0d2",
-                            "frames": [
-                                {
-                                    "id": "fcd8e5f0-d73d-4704-b20a-bd83772a6528",
-                                    "tiles": [
-                                        {
-                                            "id": "be65ca0a-eceb-474c-a1b8-f208593cd308",
-                                            "x": 8,
-                                            "y": 0,
-                                            "sliceX": 0,
-                                            "sliceY": -8,
-                                            "palette": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "4c98c51e-f83f-430b-89fc-4a1b71ec75d3",
-                            "frames": [
-                                {
-                                    "id": "bb3f76b8-8f2f-4927-a0bc-c1083aa384f9",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "aedf0d7d-ab61-4b17-ad4c-d850dc08a340",
-                            "frames": [
-                                {
-                                    "id": "612661d4-a3eb-41e4-857b-73ba4e46aa41",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "f0982866-3367-4783-aae2-83e23484efa6",
-                            "frames": [
-                                {
-                                    "id": "0c96eb69-453f-4882-997f-209dec64986a",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "b1008150-cd4d-4c98-90e4-3cbeceadf555",
-                            "frames": [
-                                {
-                                    "id": "b059d2bc-3ce6-47f1-a68e-91288b0d2ed0",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "b19e9d95-a7db-42be-b0ae-c32c858da4e1",
-                            "frames": [
-                                {
-                                    "id": "91889f5f-4004-4f70-ab94-322f80f9f99e",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "38e5d3dd-c9f3-4e11-9d78-7d9ae4a83ede",
-                            "frames": [
-                                {
-                                    "id": "d52fbb1b-ad23-4583-8173-8540c01866c3",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "f887a742-0354-435d-8271-6d9984a2257d",
-                            "frames": [
-                                {
-                                    "id": "1fe1ad5e-6348-431b-a4b5-8ac53c08d025",
-                                    "tiles": []
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "numTiles": 1,
-            "canvasWidth": 16,
-            "canvasHeight": 16,
-            "boundsX": 0,
-            "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
-            "animSpeed": 15,
-            "imageWidth": 8,
-            "imageHeight": 8
-        },
-        {
             "id": "6a159209-3891-4e71-9a86-b664399199c8",
             "name": "Raton",
             "symbol": "sprite_raton",
@@ -29440,15 +29301,7 @@
             "filename": "gbs-var.png"
         }
     ],
-    "avatars": [
-        {
-            "id": "e096f606-fd3b-4367-9562-786980dbd338",
-            "name": "Spritesheet_Run",
-            "width": 32,
-            "height": 16,
-            "filename": "Spritesheet_Run.png"
-        }
-    ],
+    "avatars": [],
     "emotes": [
         {
             "id": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
@@ -29537,6 +29390,11 @@
             "symbol": "var_score_0"
         },
         {
+            "id": "4",
+            "name": "Invulnerability",
+            "symbol": "var_invulnerability"
+        },
+        {
             "id": "f2f62d54-b67b-4b43-95a4-231af8f81d05__L0",
             "name": "Local 0",
             "symbol": "var_local_0"
@@ -29560,11 +29418,6 @@
             "id": "a213d762-b87e-4e71-a097-89b13ae07f38__L2",
             "name": "TutorialOption",
             "symbol": "var_tutorialoption"
-        },
-        {
-            "id": "4",
-            "name": "Invulnerability",
-            "symbol": "var_invulnerability"
         },
         {
             "id": "a213d762-b87e-4e71-a097-89b13ae07f38__L0",
@@ -29593,9 +29446,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 31,
-        "worldScrollY": 354,
-        "zoom": 125,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 75,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",

@@ -7315,18 +7315,11 @@
                     "id": "9fe34433-0ad4-41b6-8dca-898706b31e62"
                 },
                 {
-                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "type": "276069e5-aec6-4b03-80f3-88e413ca73c0",
-                        "priority": "medium",
-                        "pitch": 4,
-                        "frequency": 200,
-                        "duration": 0.5,
-                        "wait": true,
-                        "effect": 17,
-                        "__collapse": false
+                        "musicId": "2d1eb3a1-a321-4a09-b44d-2f141f9b44cc"
                     },
-                    "id": "16d2ee16-cc6f-4b0d-bec5-fd1424642bf1"
+                    "id": "8dee5cd8-d276-4220-9e79-38641c0fd9b2"
                 },
                 {
                     "command": "EVENT_TEXT",
@@ -29159,6 +29152,14 @@
             "type": "uge"
         },
         {
+            "id": "2d1eb3a1-a321-4a09-b44d-2f141f9b44cc",
+            "name": "Game over music",
+            "symbol": "song_game_over_music",
+            "filename": "Game over music.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "df1ace61-8c8d-49a8-aff2-54c149cd6526",
             "name": "Menu",
             "symbol": "song_song_template",
@@ -29337,9 +29338,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "fb08b4ae-553e-4458-b68d-9a22ecc4670f",
-        "startX": 0,
-        "startY": 0,
+        "startSceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
+        "startX": 1,
+        "startY": 9,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
@@ -29347,9 +29348,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 182,
-        "worldScrollY": 0,
-        "zoom": 200,
+        "worldScrollX": 0,
+        "worldScrollY": 100,
+        "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",

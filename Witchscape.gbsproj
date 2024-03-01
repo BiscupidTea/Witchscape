@@ -7306,20 +7306,6 @@
                     "id": "cba66ebf-0185-4670-8fca-1008f499a0ea"
                 },
                 {
-                    "command": "EVENT_SOUND_PLAY_EFFECT",
-                    "args": {
-                        "type": "276069e5-aec6-4b03-80f3-88e413ca73c0",
-                        "priority": "medium",
-                        "pitch": 4,
-                        "frequency": 200,
-                        "duration": 0.5,
-                        "wait": true,
-                        "effect": 18,
-                        "__collapse": false
-                    },
-                    "id": "16d2ee16-cc6f-4b0d-bec5-fd1424642bf1"
-                },
-                {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",

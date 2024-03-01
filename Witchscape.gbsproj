@@ -7272,6 +7272,20 @@
                     "id": "9fe34433-0ad4-41b6-8dca-898706b31e62"
                 },
                 {
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "276069e5-aec6-4b03-80f3-88e413ca73c0",
+                        "priority": "medium",
+                        "pitch": 4,
+                        "frequency": 200,
+                        "duration": 0.5,
+                        "wait": true,
+                        "effect": 17,
+                        "__collapse": false
+                    },
+                    "id": "16d2ee16-cc6f-4b0d-bec5-fd1424642bf1"
+                },
+                {
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
@@ -7281,20 +7295,6 @@
                         "__collapse": true
                     },
                     "id": "82130da7-49c5-4bd7-926a-b935c2951d10"
-                },
-                {
-                    "command": "EVENT_SOUND_PLAY_EFFECT",
-                    "args": {
-                        "type": "276069e5-aec6-4b03-80f3-88e413ca73c0",
-                        "priority": "medium",
-                        "pitch": 4,
-                        "frequency": 200,
-                        "duration": 0.5,
-                        "wait": true,
-                        "effect": 18,
-                        "__collapse": false
-                    },
-                    "id": "16d2ee16-cc6f-4b0d-bec5-fd1424642bf1"
                 },
                 {
                     "command": "EVENT_WAIT",
@@ -29134,7 +29134,7 @@
             "symbol": "sound_soundbank_25022024_sa",
             "filename": "SoundBank_25022024.sav",
             "type": "fxhammer",
-            "inode": "8162774324750732",
+            "inode": "844424930183154",
             "_v": 1709127107162
         }
     ],
@@ -29289,8 +29289,8 @@
         }
     ],
     "settings": {
-        "startSceneId": "a213d762-b87e-4e71-a097-89b13ae07f38",
-        "startX": 2,
+        "startSceneId": "fb08b4ae-553e-4458-b68d-9a22ecc4670f",
+        "startX": 0,
         "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
@@ -29330,7 +29330,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            897,
+            717,
             30
         ],
         "showNavigator": true,
